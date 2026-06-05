@@ -1,3 +1,45 @@
-body{
-    background-color: red;
+/* Responsive for tablets & mobile */
+
+#navbar {
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar ul {
+    flex-direction: column;
+    padding: 10px;
+}
+
+#navbar ul li {
+    margin: 10px 0;
+}
+
+#home {
+    padding: 20px;
+    height: auto;
+}
+
+#services {
+    flex-direction: column;
+    align-items: center;
+}
+
+#services .box {
+    width: 90%;
+}
+
+#clients {
+    flex-direction: column;
+}
+
+#contact-box {
+    flex-direction: column;
+}
+
+#home p {
+    font-size: 1rem;
+}
+
+.h-primary {
+    font-size: 2rem;
 }
